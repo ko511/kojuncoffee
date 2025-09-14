@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+    <title>kojun coffee</title>
+    <meta
+      name="description"
+      content="kojun coffee/自家焙煎コーヒーとごはんのカフェ"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--ファビコン-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <!--リセットCSS-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+
+    <!--Google フォント-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--オリジナルCSS-->
+    <link rel="stylesheet" href="cafe.css" />
+  </head>
+
+  <body>
+    <div class="cover cover-home">
+      <header class="page-header wrapper">
+        <h1 class="align-center">
+          <a href="index.html"
+            ><img class="logo" src="logo/logo.jpg" alt="kojun coffeeホーム"
+          /></a>
+        </h1>
+
+        <!--ハンバーガーボタン-->
+        <button
+          class="hamburger"
+          id="hamburgerBtn"
+          aria-expanded="false"
+          aria-controls="mainNav"
+          aria-label="サイドバーを表示"
+        >
+          <span class="sr-only">サイドバーを開く/閉じる</span>
+          <span class="hamburger_box" aria-hidden="true"></span>
+          <span class="hamburger_bar hamburger_bar_top"></span>
+          <span class="hamburger_bar hamburger_bar_mid"></span>
+          <span class="hamburger_bar hamburger_bar_bot"></span>
+        </button>
+
+        <nav id="mainNav" class="sidebar-nav" aria-hidden="true">
+          <ul class="main-nav font-english">
+            <li><a href="index.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="tuesday.html">Tuesday</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Reservation</a></li>
+            <li><a href="information.html">Information</a></li>
+          </ul>
+        </nav>
+
+        <!-- JS読み込み -->
+        <script src="kojun.js"></script>
+      </header>
+
+
+      <h2 class="page-title font-english">Gives Healing of Warmth.</h2>
+      <section class="about">
+        <h1 class="heading-large font-english">About kojun coffee</h1>
+        <div>
+          <p>
+            kojun
+            coffeeは2025年5月11日に糸島市前原中央にオープンしました。糸島で採れた食材をたっぷり使った、お豆隊長のあたたかい手作り料理を提供しています。事前予約の場合は、お客さまご希望のお料理を提供することも可能です。また、毎週火曜日には占いを実施しています。お悩み、ご相談などがあれば、ぜひお話しをしに来てみてください。また、コーヒーの販売も行っております。お豆隊長がじっくりと焙煎したお豆をお楽しみください。みなさま、ぜひ、kojun
+            coffeeで、あたたかいお料理やコーヒとともに、のんびり癒しの時間をお過ごしください。
+          </p>
+        </div>
+      </section>
+      <div class="align-center">
+        <a class="btn" href="menu.html">メニューを見る</a>
+      </div>
+      <div class="align-center">
+        <a class="btn" href="contact.html">お店を予約する</a>
+      </div>
+
+      <footer class="page-footer">
+        <h3 class="heading-large font-english">Information</h3>
+        <table class="info">
+          <tr>
+            <th>住所</th>
+            <td>福岡県糸島市前原中央2丁目10-55</td>
+          </tr>
+          <tr>
+            <th>電話</th>
+            <td>090-7584-8888</td>
+          </tr>
+          <tr>
+            <th>メール</th>
+            <td>junko.sasaki.mk@gmail.com</td>
+          </tr>
+          <tr>
+            <th>営業時間</th>
+            <td>12:00〜17:00(たまにnight timeも)</td>
+          </tr>
+          <tr>
+            <th>営業日</th>
+            <td>月/火(占いとcoffee)/水/木/金/土or日</td>
+          </tr>
+        </table>
+        <div class="copyright"><small>&copy; 2025 kojun coffee</small></div>
+      </footer>
+    </div>
+  </body>
+</html>
