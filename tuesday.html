@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+    <title>kojun coffee</title>
+    <meta
+      name="description"
+      content="kojun coffee/自家焙煎コーヒーとごはんのカフェ"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--ファビコン-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <!--リセットCSS-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+
+    <!--Google フォント-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--オリジナルCSS-->
+    <link rel="stylesheet" href="cafe.css" />
+  </head>
+
+  <body>
+    <div class="cover cover-home">
+      <header class="page-header wrapper">
+        <h1 class="align-center">
+          <a href="index.html"
+            ><img class="logo" src="logo/logo.jpg" alt="kojun coffeeの占い"
+          /></a>
+        </h1>
+
+        <!--ハンバーガーボタン-->
+        <button
+          class="hamburger"
+          id="hamburgerBtn"
+          aria-expanded="false"
+          aria-controls="mainNav"
+          aria-label="サイドバーを表示"
+        >
+          <span class="sr-only">サイドバーを開く/閉じる</span>
+          <span class="hamburger_box" aria-hidden="true"></span>
+          <span class="hamburger_bar hamburger_bar_top"></span>
+          <span class="hamburger_bar hamburger_bar_mid"></span>
+          <span class="hamburger_bar hamburger_bar_bot"></span>
+        </button>
+
+        <nav id="mainNav" class="sidebar-nav" aria-hidden="true">
+          <ul class="main-nav font-english">
+            <li><a href="index.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="tuesday.html">Tuesday</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Reservation</a></li>
+            <li><a href="information.html">Information</a></li>
+          </ul>
+        </nav>
+
+        <!-- JS読み込み -->
+        <script src="kojun.js"></script>
+      </header>
+
+      <h2 class="page-title font-english">Fortune telling</h2>
+
+      <section class="about">
+        <h1 class="heading-large font-english">Tuesday's Fortune telling</h1>
+        <p>
+          kojun coffeeでは毎週火曜日に占いとコーヒーの時間を設けています。<br />占い師のともさんからのメッセージです。
+        </p>
+        <p></p>
+
+        <p>
+          福岡で活動しているともです。
+          <br />私の占いは、あなた自身に気づきを与え、自分で行きたい方向性を決めていくスタイルです。
+          <br />占いは算命学、タロットカードを用いて行います。<br />算命学では、誕生日をもとに持って生まれた性質や運命の流れなどを視ていきます。
+          例えば、この占いでお子様の性質を知り、それにあった子育てをすればその持って生まれた才能を活かすことができます。
+          もちろん、お子様のことだけではなく、自分自身やパートナーのこともわかります。その人の本質が分かれば、その人の対応の仕方が分かり、気持ちが楽になります。
+          <br />また、カードを引けば、高次元の世界からあなたへのメッセージがたくさん届きます。
+          <br />私の占いで相手の状況や気持ち、未来を視て、これからあなたがどうしたいのかを自分で決めて、自分自身が選んだ道に進めるように促していきます。
+          占いに依存せずに、自分を信じることが解決への近道です。今がうまくいっていないのはあなたがそのことをまだ知らないだけ。あなたの心に寄り添って一緒に不安を取り除きます。
+          <br />どんな小さな悩みでも大丈夫です。心を浄化して、スッキリしましょう。
+        </p>
+      </section>
+
+      <section class="about">
+        <h1 class="heading-large font-english">Plan</h1>
+
+        <p>
+          種類：タロットカード/算命学<br />料金：5000円/30分+ワンドリンク料金
+        </p>
+      </section>
+
+      <div class="align-center">
+        <a class="btn" href="form1.html">占いを予約する</a>
+      </div>
+
+      <footer class="page-footer">
+        <h3 class="heading-large font-english">Information</h3>
+        <table class="info">
+          <tr>
+            <th>住所</th>
+            <td>福岡県糸島市前原中央2丁目10-55</td>
+          </tr>
+          <tr>
+            <th>電話</th>
+            <td>090-7584-8888</td>
+          </tr>
+          <tr>
+            <th>メール</th>
+            <td>junko.sasaki.mk@gmail.com</td>
+          </tr>
+          <tr>
+            <th>営業時間</th>
+            <td>12:00〜17:00(たまにnight timeも)</td>
+          </tr>
+          <tr>
+            <th>営業日</th>
+            <td>月/火(占いとcoffee)/水/木/金/土or日</td>
+          </tr>
+        </table>
+        <div class="copyright"><small>&copy; 2025 kojun coffee</small></div>
+      </footer>
+    </div>
+  </body>
+</html>
