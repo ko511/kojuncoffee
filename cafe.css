@@ -350,6 +350,11 @@ img {
   gap:20px;
 }
 
+.limited, .regular, .sweets{
+  margin-bottom:3rem;
+}
+
+
 
 /*Contact*/
 /*店舗情報*/
