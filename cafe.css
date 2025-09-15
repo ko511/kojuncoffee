@@ -344,6 +344,12 @@ img {
   gap:20px;
 }
 
+.sweets{
+  display:flex;
+  gap:20px;
+}
+
+
 /*Contact*/
 /*店舗情報*/
 .location {
