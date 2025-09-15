@@ -335,12 +335,12 @@ img {
 }
 
 .limited{
-  disply:flex;
+  display:flex;
   gap:20px;
 }
 
 .regular{
-  disply:flex;
+  display:flex;
   gap:20px;
 }
 
