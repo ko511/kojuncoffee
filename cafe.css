@@ -417,6 +417,7 @@ iframe {
   .news-contents {
     display: flex;
     justify-content: center;
+    margin:0 auto;
   }
   .post {
     width: 70%;
